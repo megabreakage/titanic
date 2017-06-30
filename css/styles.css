@@ -1,169 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Kaushan+Script|Medula+One|Playball|Rye|UnifrakturMaguntia');
+font-family: 'Playball', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Medula One', cursive;
+font-family: 'Rye', cursive;
 body {
-  font-family: 'Handlee', cursive;
-  color: #ffffff;
   font-size: 18px;
 }
 .col-lg-12 {
   padding: 0;
+  margin: 0;
 }
-h1, h2, h3, h4, h5, h6{
+@media only screen and (max-width:800px){
+  .aboutUs{
+    padding: 15px 0 !important;
+  }
+  .contentFrame, .pictures{
+    padding: 10px !important;
+  }
+  .frame, .content{
+    padding: 5px !important;
+  }
+}
+.header{
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+  color: yellow !important;
+}
+.topMenu{
+  /*border: 1px dashed orange;*/
+}
+.topMenu a, .topMenu a:link{
+  font-family: 'Rye', cursive;
+  font-size: 18px;
+  color: #000000;
+}
+.menu{
+  margin-top: 5px;
   text-align: center;
 }
-.landingPage {
-  background-image: url('../images/nai2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100.00vh;;
-  text-align: center;
-}
-
-.welcomeNote {
-  position: relative;
-  padding-top: 12%;
+a{
   color: #ffffff;
 }
-.logoDiv{
-  padding: 60px;
-}
-.logo{
-  float: none !important;
-  margin: 0 auto;
-  background-image: url('../images/print.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-}
-.logo img {
-  width: 100%;
-  height: 100%;
-}
-
-/*start of the start page menu*/
-.welcomeNote2{
-  padding: 40px;
-}
-.startMenu {
-  display: none;
-  position: relative;
-  margin-top: 10%;
-  color: white;
-}
-.frameDiv{
-
-}
-.frame {
-  margin: 0 auto;
-  background-image: url('../images/print.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  color: #ffffff;
-  height: 200px;
-  width: 200px;
-}
-.frame img {
-  width: 100%;
-  height: 100%;
-}
-.frame a{
-  list-style-type: none;
+a:link{
   text-decoration: none;
   color: #ffffff;
 }
-.searchBar{
-
-}
-.mainContentWrapper{
-  padding: 0;
-  background-image: url('../images/impala-nairobi.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  height: 100.00vh;
-}
-
-.glossBackground{
-  position: absolute;
-}
-.wildlifeHeader{
-  z-index: 9999;
-  overflow: hidden;
-  position: fixed;
-}
-.headerLogo{
-  background-image: url('../images/print.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80px;
-  width: 80px;
-}
-.headerLogo img{
-  height: 100%;
-  width: 100%;
-}
-.topMenu ul{
-  float: right;
-}
-.topMenu li{
-  color: #ffffff;
+li{
   text-decoration: none;
   list-style-type: none;
   display: inline-block;
-  padding: 15px;
-  margin-top: 2%;
+  padding: 5px 30px;
 }
-.topMenu a{
+.landingPage{
+  background-image: url("../assets/square4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo{
+  padding: 15% 0 0 0;
+  font-family: 'Playball', cursive;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+.welcomeNote{
+  font-size: 20px;
+  font-family: 'Playball', cursive;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40vh;
+}
+.go{
+  padding: 5px 12px;
+  text-align: center;
+}
+.subject{
   padding: 30px;
+}
+.aboutUs{
+  padding: 60px;
+  background-image: url("../assets/titanicMap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contentFrame{
+  padding: 15px;
 }
 .content{
-  margin-top: 3%;
-}
-.contentDiv{
-  height: 100.00vh;
-}
-.contentDiv1, .contentDiv2{
-  margin-top: 2px;
   padding: 30px;
-  background: rgba(51, 187, 255, 0.3);
-  border-radius: 10px;
 }
-.contentDiv2{
-  float: right !important;
+.pictures{
+  padding: 30px;
 }
-.slide{
-  float: none !important;
-  margin: 0 auto;
+.frame{
+  padding: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 8px 16px rgba(0,0,0,0.36  );
 }
-.slideFrame{
-  margin-top: 2%;
-  height: 200px;
-}
-.slideFrame img{
+img{
   width: 100%;
-  height: 100%;
-  border-radius: 10px;
 }
+.ourMenu{
 
-.hotels{
-  background-image: url('../images/sarova-2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100.00vh;
 }
-.leisure{
-  background-image: url('../images/bar_lounge.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100.00vh;
+.menus{
+  padding: 90px;
+  color: #ffffff;
 }
-.services{
-  background-image: url('../images/th4.jpg');
+.menus:hover{
+  opacity: 0.7;
+  color: black;
+}
+.breakfast{
+  background-image: url("../assets/breakfast.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  height: 100.00vh;
+}
+.softDrinks{
+  background-image: url("../assets/lunch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nyamaChoma{
+  background-image: url("../assets/dinner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.beer{
+  background-image: url("../assets/dinner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
