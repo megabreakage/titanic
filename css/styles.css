@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Kaushan+Script|Medula+One|Playball|Rye|UnifrakturMaguntia');
-font-family: 'Playball', cursive;
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Great+Vibes|Kaushan+Script|Medula+One|Playball|Rye|UnifrakturMaguntia');
+/*font-family: 'Playball', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'UnifrakturMaguntia', cursive;
 font-family: 'Medula One', cursive;
 font-family: 'Rye', cursive;
+font-family: 'Advent Pro', sans-serif;*/
 body {
   font-size: 18px;
+  font-family: 'Advent Pro', sans-serif;
 }
 .col-lg-12 {
   padding: 0;
@@ -14,7 +16,7 @@ body {
 }
 @media only screen and (max-width:800px){
   .aboutUs{
-    padding: 15px 0 !important;
+    /*padding: 15px 0 !important;*/
   }
   .contentFrame, .pictures{
     padding: 10px !important;
@@ -30,12 +32,13 @@ body {
   color: yellow !important;
 }
 .topMenu{
-  /*border: 1px dashed orange;*/
+
 }
 .topMenu a, .topMenu a:link{
-  font-family: 'Rye', cursive;
-  font-size: 18px;
-  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFF00;
+  text-shadow: 10px 10px 20px #000000;
 }
 .menu{
   margin-top: 5px;
@@ -59,20 +62,37 @@ li{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
+}
+.logoFrame{
+  margin: 20vh 0 10vh 0;
 }
 .logo{
-  padding: 15% 0 0 0;
-  font-family: 'Playball', cursive;
-  font-size: 60px;
+  background-image: url("../assets/print.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: none !important;
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
   color: #ffffff;
   text-align: center;
+  border: 1px solid transparent;
+}
+.logoTxt{
+  margin-top: 180px;
+  font-family: 'Playball', cursive;
+  font-size: 60px;
+}
+.area{
+  padding-right: 30px;
+  text-align: right;
+  font-size: 20px;
 }
 .welcomeNote{
   font-size: 20px;
-  font-family: 'Playball', cursive;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 40vh;
 }
 .go{
   padding: 5px 12px;
@@ -80,22 +100,39 @@ li{
 }
 .subject{
   padding: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FFFF00;
 }
-.aboutUs{
-  padding: 60px;
-  background-image: url("../assets/titanicMap.png");
+#about{
+  background-image: url("../assets/bar22.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+.floatRight{
+  text-align: right !important;
+  padding-right: 0 !important;
+}
+.floatLeft{
+  padding-left: 0 !important;
+}
+.aboutUs{
+  padding: 60px 0;
+  background: rgba(255, 255, 255, 0.5);
+  /*border: 1px dashed orange;*/
+}
 .contentFrame{
-  padding: 15px;
+  padding: 0 15px;
+  /*border: 1px dashed orange;*/
 }
 .content{
-  padding: 30px;
+  padding: 30px 60px;
+  /*border: 1px dashed orange;*/
 }
 .pictures{
-  padding: 30px;
+  padding: 0 60px;
+  /*border: 1px dashed orange;*/
 }
 .frame{
   padding: 15px;
@@ -105,7 +142,30 @@ img{
   width: 100%;
 }
 .ourMenu{
-
+  background-image: url("../assets/menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*height: 100vh;*/
+}
+.foodText{
+  background-color: rgba(255, 255, 0, 0.8);
+  padding: 5vh 0 2vh 0;
+}
+.txt{
+  color: #000000;
+  padding: 60px;
+}
+.foodFrame{
+  padding: 15px;
+}
+.foodImg{
+  background-image: url("../assets/nyamChom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
 }
 .menus{
   padding: 90px;
@@ -134,4 +194,31 @@ img{
   background-image: url("../assets/dinner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.beers{
+  padding: 30px 0 30px 45px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.reservations{
+  text-align: center;
+  padding: 60px;
+}
+.reserve{
+  padding: 30px;
+}
+.reserve textarea{
+  padding: 0 20px 0 20px;
+}
+.contactUs{
+  background-image: url("../assets/titanicMap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.glass{
+  background: rgba(0, 0, 0, 0.5);
+}
+.fullName, .emailAddress, .visitor{
+  padding: 15px;
 }
