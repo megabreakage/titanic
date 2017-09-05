@@ -200,7 +200,7 @@ img{
   color: #ffffff;
   font-size: 18px;
 }
-.reservations{
+.reservations, .contactUs{
   text-align: center;
   padding: 60px;
 }
@@ -208,7 +208,20 @@ img{
   padding: 30px;
 }
 .reserve textarea{
-  padding: 0 20px 0 20px;
+  padding: 20px;
+}
+.fillForm input, .fillForm textarea{
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0);
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.theSubject, .theDate, .peopleNo, .descrption{
+  text-align: center;
+  padding: 10px;
+}
+.reserveBtn{
+  padding: 60px;
 }
 .contactUs{
   background-image: url("../assets/titanicMap.png");
@@ -216,9 +229,42 @@ img{
   background-size: cover;
   background-attachment: fixed;
 }
+.formBtn{
+  padding: 30px;
+}
+.formBtn button{
+  text-align: center;
+  padding: 7.5px 60px;
+}
 .glass{
   background: rgba(0, 0, 0, 0.5);
 }
 .fullName, .emailAddress, .visitor{
   padding: 15px;
 }
+/*FOOTER*/
+.footerSection{
+  color: #cccccc;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #000000;
+}
+.socialMedia{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.socialMedia a{
+  margin: 0 60px;
+}
+.motto{
+  font-size: 16px;
+  text-shadow: 5px 5px 20px #ffffff;
+}
+.policyCredits{
+  margin-top: 40px;
+  padding-top: 10px;
+}
+.credits{
+  font-family: 'Playball', cursive;
+  font-size: 18px;
