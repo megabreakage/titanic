@@ -45,11 +45,11 @@ body {
   text-align: center;
 }
 a{
-  color: #ffffff;
+  color: #FFFF00;
 }
 a:link{
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFF00;
 }
 li{
   text-decoration: none;
@@ -229,6 +229,16 @@ img{
   background-size: cover;
   background-attachment: fixed;
 }
+.location a{
+  color: #000000;
+}
+.location a:hover{
+  text-shadow: 5px 5px 20px #000000;
+}
+.conts{
+  text-align: left !important;
+  padding: 15px 70px;
+}
 .formBtn{
   padding: 30px;
 }
@@ -242,6 +252,7 @@ img{
 .fullName, .emailAddress, .visitor{
   padding: 15px;
 }
+
 /*FOOTER*/
 .footerSection{
   color: #cccccc;
